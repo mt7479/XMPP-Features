@@ -2,7 +2,7 @@ package.path = "./?.lua;/home/zash/src/prosody/0.9/?.lua;"..package.path;
 
 local lfs = require"lfs";
 local st = require"util.stanza";
-local template = require"util.template";
+-- local template = require"util.template";
 local envloadfile = require"util.envload".envloadfile;
 
 local xeps = require"xeps";
@@ -18,6 +18,7 @@ local other = {
 	rfc6122 = "RFC6122: XMPP Address Format";
 }
 
+local dir = ... or "servers"
 
 local xeptable = st.stanza"table";
 xeptable:tag"thead":tag"tr"
@@ -25,10 +26,10 @@ xeptable:tag"th":text"XEP":up()
 
 local used_keys = { name = true, type = true, website = true }; -- Keys already here are ignored
 local servers = {};
-for file in lfs.dir"servers/" do
+for file in lfs.dir(dir)do
 	if file:match"%.lua" then
 		local env = setmetatable({}, {__newindex=function(t,k,v) if not used_keys[k] then used_keys[#used_keys+1]=k used_keys[k]=true end;rawset(t,k,v); end});
-		pcall(envloadfile("servers/"..file, env));
+		pcall(envloadfile(dir.."/"..file, env));
 		pcall(envloadfile("compliance.lua", env));
 		setmetatable(env, nil);
 		local name = file:match"(.*)%.lua$";
