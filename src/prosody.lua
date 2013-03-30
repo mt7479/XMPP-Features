@@ -7,6 +7,7 @@ rfc3920 = true
 rfc3921 = true
 rfc6120 = true
 rfc6121 = true
+rfc6122 = true
 xep0004 = true
 xep0009 = true
 xep0012 = true

@@ -1,5 +1,7 @@
 type = "server"
-website = "jabberd2.org"
+website = "http://jabberd2.org/"
+rfc3920 = true
+rfc3921 = true
 xep0012 = true
 xep0016 = true
 xep0022 = true
