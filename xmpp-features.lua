@@ -16,6 +16,9 @@ local other = {
 	rfc6120 = "RFC6120: XMPP Core";
 	rfc6121 = "RFC6121: XMPP IM";
 	rfc6122 = "RFC6122: XMPP Address Format";
+	-- rfc6125 = "RFC6125: Representation and Verification of Domain-Based Application Service Identity within Internet Public Key Infrastructure Using X.509 (PKIX) Certificates in the Context of Transport Layer Security (TLS)";
+	rfc6125 = "RFC6125: Verification of Domain-Based Identity within PKIX Certificates in TLS";
+	rfc6455 = "RFC6455: The WebSocket Protocol";
 }
 
 local dir = ... or "servers"
