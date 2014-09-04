@@ -172,6 +172,8 @@ body {
   </span>
 </div>
 
+<p id='intro'> See something inaccurate?  <a href='https://github.com/Zash/XMPP-Features'>File an issue or send a patch</a>.  </p>
+
 %s
 
 </body>
