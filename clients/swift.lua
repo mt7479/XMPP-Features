@@ -5,6 +5,7 @@ rfc3921 = true
 rfc6120 = true
 rfc6121 = true
 rfc6122 = true
+xep0030 = true
 xep0045 = true
 xep0048 = true
 xep0049 = true
@@ -18,8 +19,8 @@ xep0184 = ">=2.0"
 xep0191 = ">=3.0"
 xep0198 = "partial"
 xep0204 = true
+xep0234 = ">=3.0"
 xep0237 = ">=2.0"
 xep0245 = true
-xep0258 = true
 xep0249 = true
-xep0030 = true
+xep0258 = true

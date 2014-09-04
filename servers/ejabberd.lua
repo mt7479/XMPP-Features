@@ -1,6 +1,6 @@
 website = "http://www.ejabberd.im/"
 type = "server"
-ipv6 = "prefers IPv4"
+ipv6 = "prefers IPv4 by default"
 admin_web = true
 rfc3920 = true
 rfc3921 = true
