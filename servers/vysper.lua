@@ -1,0 +1,25 @@
+-- http://mina.apache.org/vysper-project/standards_supported.html
+type = "server"
+website = "http://mina.apache.org/vysper-project/index.html"
+rfc3920 = true
+rfc3921 = "partial"
+rfc6455 = true
+xep0004 = true
+xep0030 = true
+xep0045 = "partial"
+xep0049 = true
+xep0050 = true
+xep0054 = true
+xep0060 = true
+xep0065 = true
+xep0077 = "partial"
+xep0082 = true
+xep0092 = true
+xep0124 = true
+xep0133 = "partial"
+xep0185 = true
+xep0199 = true
+xep0202 = true
+xep0206 = true
+xep0220 = true
+xep0220 = true
