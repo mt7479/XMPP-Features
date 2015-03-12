@@ -1,3 +1,4 @@
+type = "client"
 xep0030 = true
 xep0045 = true
 xep0047 = true
