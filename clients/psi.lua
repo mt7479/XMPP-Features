@@ -2,9 +2,9 @@ type = "client"
 website = "http://psi-im.org/"
 rfc3920 = true
 rfc3921 = true
-rfc6120 = "mabye"
-rfc6121 = "mabye"
-rfc6122 = "mabye"
+rfc6120 = "maybe"
+rfc6121 = "maybe"
+rfc6122 = "maybe"
 xep0004 = true
 xep0012 = ">=0.11"
 xep0016 = ">=0.11"
