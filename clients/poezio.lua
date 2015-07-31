@@ -84,6 +84,7 @@ xep0237 = false
 xep0245 = ">=0.6"
 xep0249 = ">=0.9"
 xep0256 = false
+xep0257 = ">=0.9"
 xep0258 = false
 xep0260 = false
 xep0261 = false
