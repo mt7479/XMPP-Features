@@ -17,10 +17,11 @@ xep0030 = true
 xep0033 = "contrib (partial)"
 xep0039 = false
 xep0045 = ">=0.3"
+xep0047 = "contrib (proxy to tcp)"
 xep0049 = ">=0.1"
 xep0050 = ">=0.8"
 xep0054 = ">=0.1"
-xep0055 = false
+xep0055 = "contrib"
 xep0059 = false
 xep0060 = ">=0.9"
 xep0065 = ">=0.7"
@@ -32,7 +33,9 @@ xep0078 = ">=0.1"
 xep0079 = false
 xep0080 = true
 xep0082 = true
+xep0084 = "contrib (integration with xep-54)"
 xep0084 = true
+xep0085 = "contrib (filtering)"
 xep0090 = true
 xep0091 = true
 xep0092 = true
@@ -52,9 +55,10 @@ xep0130 = false
 xep0133 = ">=0.7"
 xep0136 = "contrib"
 xep0138 = true
+xep0153 = "contrib (integration with pubsub avatars)"
 xep0153 = true
 xep0154 = false
-xep0157 = false
+xep0157 = "contrib"
 xep0158 = false
 xep0159 = false
 xep0160 = true
@@ -62,6 +66,7 @@ xep0161 = false
 xep0163 = ">=0.5"
 xep0168 = false
 xep0170 = true
+xep0172 = "contrib (integration with xep-54)"
 xep0175 = true
 xep0178 = ">=0.9"
 xep0182 = true
@@ -82,7 +87,7 @@ xep0205 = false
 xep0206 = ">=0.2"
 xep0209 = false
 xep0214 = false
-xep0215 = false
+xep0215 = "contrib"
 xep0216 = true
 xep0220 = true
 xep0221 = false
@@ -90,7 +95,7 @@ xep0225 = false
 xep0227 = true
 xep0230 = false
 xep0232 = false
-xep0233 = false
+xep0233 = "contrib"
 xep0235 = false
 xep0236 = false
 xep0237 = ">=0.4"
@@ -102,14 +107,23 @@ xep0253 = false
 xep0254 = false
 xep0255 = false
 xep0256 = false
-xep0257 = false
+xep0257 = "contrib"
 xep0258 = "contrib"
 xep0259 = false
+xep0268 = "contrib"
 xep0273 = "contrib"
 xep0279 = "contrib"
 xep0280 = "contrib"
 xep0288 = "contrib"
 xep0292 = "contrib"
+xep0295 = "contrib"
 xep0309 = "contrib"
 xep0313 = "contrib"
 xep0318 = ">=0.9.0"
+xep0319 = "contrib (compat plugin)"
+xep0321 = "contrib"
+xep0335 = "contrib (used in pubsub-to-mqtt plugin)"
+xep0352 = "contrib"
+xep0355 = "contrib"
+xep0356 = "contrib"
+xep0357 = "contrib"
