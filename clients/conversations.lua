@@ -22,5 +22,7 @@ xep0249 = true
 xep0260 = true
 xep0261 = true
 xep0280 = true
+xep0313 = true
 xep0333 = true
 xep0352 = true
+xep0363 = true
