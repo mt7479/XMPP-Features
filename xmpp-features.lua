@@ -1,4 +1,3 @@
-package.path = "./?.lua;/home/zash/src/prosody/0.9/?.lua;"..package.path;
 
 local lfs = require"lfs";
 local st = require"util.stanza";
