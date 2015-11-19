@@ -1,5 +1,6 @@
 type = "client"
 website = "https://github.com/siacs/Conversations"
+otr = true
 rfc6120 = true
 rfc6121 = true
 rfc6122 = true
