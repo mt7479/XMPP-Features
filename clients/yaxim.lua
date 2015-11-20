@@ -49,7 +49,6 @@ xep0147 = true
 xep0153 = false
 xep0156 = false
 xep0158 = false
-xep0162 = "OMG NO"
 xep0163 = false
 xep0166 = false
 xep0167 = false
