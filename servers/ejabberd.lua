@@ -60,7 +60,7 @@ xep0176 = ">=2.1.0"
 xep0178 = false
 xep0191 = ">=2.1.7"
 xep0193 = "contrib"
-xep0198 = false
+xep0198 = true
 xep0199 = ">=2.1.0"
 xep0202 = ">=2.1.0"
 xep0203 = ">=2.1.0"
@@ -80,3 +80,4 @@ xep0278 = "contrib"
 xep0279 = ">=2.1.3"
 xep0279 = true
 xep0280 = ">2.1.12"
+xep0352 = true
