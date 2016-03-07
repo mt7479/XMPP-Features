@@ -8,7 +8,7 @@ rfc6120 = "Maybe?"
 rfc6121 = "Maybe?"
 xep0004 = true
 xep0012 = true
-xep0013 = false
+xep0013 = ">=16.02"
 xep0016 = true
 xep0018 = ">=2.1.0, <3.0.0"
 xep0020 = false
@@ -80,3 +80,4 @@ xep0278 = "contrib"
 xep0279 = ">=2.1.3"
 xep0279 = true
 xep0280 = ">2.1.12"
+xep0313 = "contrib, >=14.12"
