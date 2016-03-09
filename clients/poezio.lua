@@ -95,6 +95,9 @@ xep0297 = ">=0.8, for Carbons"
 xep0300 = false
 xep0306 = false
 xep0308 = ">=0.8"
+xep0313 = false
+xep0319 = false
 xep0333 = false
 xep0352 = false
+xep0363 = false
 xep0364 = ">=0.7.5, plugin"
