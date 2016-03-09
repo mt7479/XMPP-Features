@@ -67,4 +67,4 @@ xep0300 = true
 xep0306 = true
 xep0313 = true
 xep0363 = "plugin"
-otr = "plugin"
+xep0364 = "plugin"

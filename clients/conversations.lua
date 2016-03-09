@@ -1,6 +1,5 @@
 type = "client"
 website = "https://github.com/siacs/Conversations"
-otr = true
 rfc6120 = true
 rfc6121 = true
 rfc6122 = true
@@ -27,3 +26,4 @@ xep0313 = true
 xep0333 = true
 xep0352 = true
 xep0363 = true
+xep0364 = true

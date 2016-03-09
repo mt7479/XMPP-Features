@@ -98,4 +98,3 @@ xep0308 = false
 xep0333 = false
 xep0352 = false
 xep0364 = true
-otr = true

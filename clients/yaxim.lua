@@ -1,6 +1,5 @@
 type = "client"
 website = "http://yaxim.org/"
-otr = false
 rfc6120 = "no SCRAM-SHA-1"
 rfc6121 = true
 rfc6122 = true
@@ -94,3 +93,4 @@ xep0313 = false
 xep0333 = false
 xep0352 = false
 xep0363 = false
+xep0364 = false

@@ -97,4 +97,4 @@ xep0306 = false
 xep0308 = ">=0.8"
 xep0333 = false
 xep0352 = false
-otr = ">=0.7.5, plugin"
+xep0364 = ">=0.7.5, plugin"

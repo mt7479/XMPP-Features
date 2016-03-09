@@ -50,4 +50,4 @@ xep0237 = ">=2.6.5"
 xep0245 = true
 xep0249 = true
 xep0256 = ">=2.6.0"
-otr = "plugin"
+xep0364 = "plugin"
