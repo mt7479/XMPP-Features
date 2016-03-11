@@ -11,7 +11,7 @@ xep0004 = true
 xep0009 = true
 xep0012 = true
 xep0013 = false
-xep0016 = true
+xep0016 = ">=0.7, <0.10"
 xep0025 = false -- replaced by XEP-0124: BOSH
 xep0030 = true
 xep0033 = "contrib (partial)"
