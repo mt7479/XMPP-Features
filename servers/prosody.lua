@@ -74,7 +74,7 @@ xep0185 = true
 xep0186 = false
 xep0189 = true
 xep0190 = false
-xep0191 = "contrib"
+xep0191 = "contrib, >=0.10"
 xep0194 = true
 xep0195 = true
 xep0196 = true
