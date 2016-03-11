@@ -6,7 +6,7 @@ ipv6 = ">=0.9"
 rfc6120 = true
 rfc6121 = true
 rfc6122 = true
-rfc6455 = "contrib"
+rfc6455 = ">=0.10"
 xep0004 = true
 xep0009 = true
 xep0012 = true
