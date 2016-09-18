@@ -33,3 +33,4 @@ xep0352 = true
 xep0363 = true
 xep0364 = true
 xep0368 = true
+xep0377 = true
