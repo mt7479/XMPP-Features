@@ -26,4 +26,38 @@ xep0270 = rfc3920 and rfc3921 and xep0030 and xep0115 and "Core Client" or false
 xep0270 = xep0270 and xep0054 and xep0163 and xep0045 and xep0085 and "Advanced Client" or xep0270 or false
 xep0302 = rfc6120 and rfc6121 and rfc6122 and xep0030 and xep0115 and "Core Client" or false
 xep0302 = xep0302 and xep0045 and xep0054 and xep0085 and xep0184 and xep0163 and xep0198 and "Advanced Client" or xep0302 or false
+
+local xep0375_core = rfc6120 and rfc6122 and xep0030 and xep0115
+local xep0375_advanced = xep0375_core and xep0163
+if xep0375_advanced then
+	xep0375 = "Advanced Client"
+elseif xep0375_core then
+	xep0375 = "Core Client"
+else
+	xep0375 = false
+end
+if xep0375 then
+	local xep0375_web_core = xep0375_core and rfc7395 or (xep0124 and xep0206)
+	local xep0375_web_advanced = xep0375_web_core and xep0375_advanced
+	if xep0375_web_advanced then
+		xep0375 = xep0375 .. " + Advanced Web"
+	elseif xep0375_web_core then
+		xep0375 = xep0375 .. " + Core Web"
+	end
+	local xep0375_im_core = xep0375_core and rfc6121 and xep0084 and (xep0280 or xep0313) and (xep0045 or xep0369)
+	local xep0375_im_advanced = xep0375_im_core and xep0375_advanced and xep0375_im_core and xep0191 and xep0048 and xep0198 and xep0313
+	if xep0375_im_advanced then
+		xep0375 = xep0375 .. " + Advanced IM"
+	elseif xep0375_im_core then
+		xep0375 = xep0375 .. " + Core IM"
+	end
+	local xep0375_mobile_core = xep0375_core and xep0198 and xep0352
+	local xep0375_mobile_advanced = xep0375_mobile_core and xep0375_advanced and xep0357
+	if xep0375_mobile_advanced then
+		xep0375 = xep0375 .. " + Advanced Mobile"
+	elseif xep0375_mobile_core then
+		xep0375 = xep0375 .. " + Core Mobile"
+	end
+end
+
 end
