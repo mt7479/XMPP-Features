@@ -95,5 +95,5 @@ xep0279 = true
 xep0279 = true
 xep0280 = true
 xep0313 = true
-xep0352 = false
+xep0352 = true
 xep0357 = false
