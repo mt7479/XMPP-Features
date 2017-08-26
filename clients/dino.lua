@@ -1,0 +1,16 @@
+type = "client"
+website = "https://github.com/dino/dino"
+xep0030 = true
+xep0045 = true
+xep0048 = true
+xep0049 = true
+xep0054 = true
+xep0060 = true
+xep0084 = true
+xep0085 = true
+xep0115 = true
+xep0184 = true
+xep0199 = true
+xep0203 = true
+xep0280 = true
+xep0333 = true
