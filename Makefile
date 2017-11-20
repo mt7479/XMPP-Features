@@ -2,10 +2,10 @@ LUA ?= lua
 
 all: xmpp-features.html xmpp-clients.html
 
-xmpp-features.html: xmpp-features.lua xeps.xml util servers/*.lua
+xmpp-features.html: xmpp-features.lua xeplist.xml util servers/*.lua
 	$(LUA) xmpp-features.lua > $@
 
-xmpp-clients.html: xmpp-features.lua xeps.xml util clients/*.lua
+xmpp-clients.html: xmpp-features.lua xeplist.xml util clients/*.lua
 	$(LUA) xmpp-features.lua clients > $@
 
 util: util/stanza.lua util/xml.lua util/envload.lua
