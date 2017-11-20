@@ -1,4 +1,5 @@
 
+require "luarocks.loader";
 local lfs = require"lfs";
 local st = require"util.stanza";
 -- local template = require"util.template";

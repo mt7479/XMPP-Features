@@ -29,6 +29,7 @@ xep0249 = true
 xep0258 = true
 xep0260 = ">=3.0"
 xep0261 = ">=3.0"
+xep0280 = ">=4.0"
 xep0308 = true
 xep0319 = true
 xep0364 = false
