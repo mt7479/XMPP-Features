@@ -14,5 +14,5 @@ util/%:
 	@mkdir -p util
 	curl -s -o $@ https://hg.prosody.im/0.9/raw-file/b1c84d220c40/$@
 
-xeps.xml:
-	curl -s -L -o $@ https://xmpp.org/extensions/xeps.xml
+xeplist.xml:
+	curl -s -L -o $@ https://xmpp.org/extensions/xeplist.xml
