@@ -43,6 +43,7 @@ xep0145 = true
 xep0146 = true
 xep0147 = true
 xep0153 = true
+xep0156 = true
 xep0158 = "Partial"
 xep0162 = true
 xep0163 = true
