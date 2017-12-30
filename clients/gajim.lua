@@ -68,3 +68,4 @@ xep0306 = true
 xep0313 = true
 xep0363 = "plugin"
 xep0364 = "plugin"
+xep0368 = true
