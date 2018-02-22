@@ -1,5 +1,5 @@
 type = "client"
-website = "http://http://www.profanity.im/"
+website = "http://www.profanity.im/"
 rfc3920 = "maybe"
 rfc3921 = "maybe"
 rfc6120 = true
